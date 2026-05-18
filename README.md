@@ -26,13 +26,7 @@
 
 ---
 
-## 📊 GitHub İstatistikleri
 
-![Emre's GitHub stats](https://github-readme-stats.vercel.app/api?username=eemreinceer&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=eemreinceer&layout=compact&theme=tokyonight)
-
----
 
 ## 📫 İletişim
 
