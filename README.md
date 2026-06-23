@@ -31,7 +31,7 @@
 ## 📫 İletişim
 
 - 💼 **LinkedIn**: [linkedin.com/in/eemreinceer](https://linkedin.com/in/eemreinceer)
-- 📧 **Email**: emreinceer@outlook.com
+- 📧 **Email**: emreinceer.dev@gmail.com
 - 🐙 **GitHub**: [github.com/eemreinceer](https://github.com/eemreinceer)
 
 ---
