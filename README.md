@@ -2,15 +2,15 @@
 
 🎓 Mekatronik Mühendisliği öğrencisiyim · 📍 İzmir, Türkiye
 
-**Gömülü sistemler, robotik ve Edge AI** üzerine end-to-end projeler geliştiriyorum. Donanım tasarımından (PCB, mekanik) bulut entegrasyonuna kadar tek başıma uçtan uca sahiplenebildiğim mühendislik problemleri üzerinde çalışıyorum.
+**Gömülü sistemler, robotik ve Edge AI** alanlarında kendimi geliştiriyor; donanım, firmware, robotik yazılım ve bulut entegrasyonunu bir araya getiren uçtan uca projeler üzerinde çalışıyorum.
 
 ---
 
-## 🔭 Şu an üzerinde çalıştıklarım
+## 🔭 Üzerinde çalıştığım projeler
 
-- **[SmartSafe](https://github.com/eemreinceer/Smart_Safe)** — ESP32-CAM + Firebase + React tabanlı IoT güvenlik sistemi. Custom PCB (KiCad), 3D enclosure (Fusion 360), gerçek zamanlı kontrol ve bulut senkronizasyonu ile end-to-end embedded proje.
+- **[SmartSafe](https://github.com/eemreinceer/Smart_Safe)** — ESP32-CAM + Firebase tabanlı IoT güvenlik sistemi. RFID yetkilendirme, FreeRTOS görevleri, fail-closed güvenlik davranışı, custom PCB (KiCad), 3D enclosure (Fusion 360), olay kaydı ve bulut senkronizasyonu içerir.
 
-- **[6DOF Robot Kol (UR5e)](https://github.com/eemreinceer/robot_ws)** — ROS2 Jazzy + Gazebo Harmonic + MoveIt2 + OpenCV ile vision-guided pick-and-place sistemi. State machine tabanlı koordinatör mimarisi.
+- **[Robot Arm](https://github.com/eemreinceer/Robot_Arm)** — ROS 2 Jazzy, Gazebo Harmonic, MoveIt 2, OpenCV ve embedded kontrol bileşenleriyle geliştirilen vision-guided pick-and-place robotik sistem projesi. Kinematik, algılama, planlama, UART tabanlı donanım arayüzü ve güvenlik sınırlamaları birlikte ele alınır.
 
 ---
 
@@ -18,15 +18,13 @@
 
 **Embedded**: ESP32, STM32, PlatformIO, C++, Arduino Framework, FreeRTOS  
 **Communication Protocols**: I2C, SPI, UART  
-**Robotics**: ROS2, MoveIt2, Gazebo, OpenCV, Computer Vision  
+**Robotics**: ROS 2, MoveIt 2, Gazebo, OpenCV, Computer Vision  
 **Hardware Design**: KiCad (PCB), Fusion 360, SolidWorks  
 **Cloud & Web**: Firebase, React, Vite  
 **Languages**: C++, Python, JavaScript, Bash  
 **Tools**: Git, Linux, MATLAB, Simulink
 
 ---
-
-
 
 ## 📫 İletişim
 
@@ -36,4 +34,4 @@
 
 ---
 
-> 🎯 *Gömülü sistemler, robotik ve Edge AI alanında staj ve part-time fırsatlara açığım. İzmir bölgesindeki R&D firmalarıyla iletişime geçmekten memnuniyet duyarım.*
+> 🎯 *Gömülü sistemler, robotik ve Edge AI alanında staj, aday mühendislik ve part-time fırsatlara açığım. İzmir bölgesindeki Ar-Ge ekipleriyle iletişime geçmekten memnuniyet duyarım.*
