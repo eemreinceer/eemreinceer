@@ -1,20 +1,20 @@
 <div align="center">
 
-# Merhaba, ben Emre İnceer 👋
+# Hi, I'm Emre İnceer 👋
 
-### Mekatronik Mühendisliği Öğrencisi · Robotics · Embedded Systems · Computer Vision
+### Mechatronics Engineering Student · Robotics · Embedded Systems · Computer Vision
 
-📍 İzmir, Türkiye
+📍 Izmir, Türkiye
 
 </div>
 
-Robotik ve gömülü sistemlerde; **mekanik, elektronik, firmware, ROS 2, algılama ve güvenlik** katmanlarını birlikte ele alan uçtan uca projeler geliştiriyorum. Bir sistemin yalnızca çalışmasına değil, davranışının ölçülebilir, sınırlarının açık ve sonuçlarının tekrar üretilebilir olmasına odaklanıyorum.
+I build end-to-end robotics and embedded systems spanning **mechanics, electronics, firmware, ROS 2, perception and safety**. I care not only whether a system works, but also whether its behavior is measurable, its limitations are explicit and its results are reproducible.
 
-Başlıca çalışma alanlarım; ROS 2 tabanlı robotik sistemler, embedded firmware, motor ve sensör entegrasyonu, computer vision, Edge AI ve elektronik sistem geliştirme.
+My main areas of interest are ROS 2-based robotics, embedded firmware, motor and sensor integration, computer vision, Edge AI and electronic system development.
 
 ---
 
-## Öne çıkan projeler
+## Featured projects
 
 <table>
 <tr>
@@ -22,46 +22,46 @@ Başlıca çalışma alanlarım; ROS 2 tabanlı robotik sistemler, embedded firm
 
 <h3 align="center"><a href="https://github.com/eemreinceer/Robot_Arm">Robot Arm</a></h3>
 
-<p align="center"><strong>ROS 2, vision ve embedded control entegrasyonu</strong></p>
+<p align="center"><strong>ROS 2, vision and embedded control integration</strong></p>
 
-ROS 2 Jazzy, MoveIt 2, Gazebo Harmonic ve OpenCV üzerine kurulu; planlama, perception, calibration ve low-level control katmanlarını bir araya getiren robotik sistem projesi.
+An integrated robotics project built around ROS 2 Jazzy, MoveIt 2, Gazebo Harmonic and OpenCV, combining motion planning, perception, calibration and low-level control.
 
-<strong>Sistem kapsamı</strong>
+<strong>System scope</strong>
 <ul>
 <li>5-axis manipulator + 1-DOF gripper</li>
-<li>MoveIt 2 motion planning ve IK karşılaştırmaları</li>
-<li>YOLO tabanlı object detection ve camera calibration</li>
-<li><code>ros2_control</code> üzerinden bounded UART communication</li>
-<li>ESP32/STM32 servo firmware ve watchdog testleri</li>
-<li>Raspberry Pi 5 deployment ve Gazebo simulation</li>
+<li>MoveIt 2 motion planning and IK comparisons</li>
+<li>YOLO-based object detection and camera calibration</li>
+<li>Bounded UART communication through <code>ros2_control</code></li>
+<li>ESP32/STM32 servo firmware and watchdog tests</li>
+<li>Raspberry Pi 5 deployment and Gazebo simulation</li>
 </ul>
 
-<strong>Mühendislik yaklaşımı:</strong> Simulation, command state ve physical feedback aynı kanıt sınıfı olarak değerlendirilmez; ölçümler ve mevcut limitler repoda açıkça belgelenir.
+<strong>Engineering perspective:</strong> Simulation results, commanded state and physical feedback are treated as distinct evidence classes. Measurements and known limitations are documented explicitly in the repository.
 
-<p align="center"><a href="https://github.com/eemreinceer/Robot_Arm"><strong>Projeyi incele →</strong></a></p>
+<p align="center"><a href="https://github.com/eemreinceer/Robot_Arm"><strong>Explore the project →</strong></a></p>
 
 </td>
 <td width="50%" valign="top">
 
 <h3 align="center"><a href="https://github.com/eemreinceer/Smart_Safe">SmartSafe</a></h3>
 
-<p align="center"><strong>Embedded access control ve IoT sistem prototipi</strong></p>
+<p align="center"><strong>Embedded access control and IoT system prototype</strong></p>
 
-ESP32-CAM, RC522 ve solenoid lock altyapısını; Firebase tabanlı event synchronization, web dashboard, custom PCB ve mekanik tasarımla birleştiren uçtan uca mekatronik projesi.
+An end-to-end mechatronics project combining an ESP32-CAM, RC522 reader and solenoid lock with Firebase event synchronization, a web dashboard, a custom PCB and mechanical design.
 
-<strong>Sistem kapsamı</strong>
+<strong>System scope</strong>
 <ul>
-<li>FreeRTOS görevleri ve non-blocking state machine</li>
+<li>FreeRTOS tasks and a non-blocking state machine</li>
 <li>Local RFID allowlist authorization</li>
-<li>Fail-closed credential ve TLS configuration kontrolleri</li>
-<li>Offline event queue ve Firebase RTDB synchronization</li>
-<li>HTML/CSS/JavaScript dashboard ve role-separated database rules</li>
-<li>KiCad PCB ve Fusion 360 enclosure kaynakları</li>
+<li>Fail-closed credential and TLS configuration checks</li>
+<li>Offline event queue and Firebase RTDB synchronization</li>
+<li>HTML/CSS/JavaScript dashboard and role-separated database rules</li>
+<li>KiCad PCB and Fusion 360 enclosure sources</li>
 </ul>
 
-<strong>Mühendislik yaklaşımı:</strong> Unlock kararı cihaz üzerinde yerel olarak verilir; cloud katmanı kilidi doğrudan açmaz. Proje bir engineering prototype olarak sunulur, production security ürünü olarak değil.
+<strong>Engineering perspective:</strong> The access decision is made locally on the device; the cloud layer cannot directly unlock the safe. The project is presented as an engineering prototype, not as a production-grade security product.
 
-<p align="center"><a href="https://github.com/eemreinceer/Smart_Safe"><strong>Projeyi incele →</strong></a></p>
+<p align="center"><a href="https://github.com/eemreinceer/Smart_Safe"><strong>Explore the project →</strong></a></p>
 
 </td>
 </tr>
@@ -69,34 +69,34 @@ ESP32-CAM, RC522 ve solenoid lock altyapısını; Firebase tabanlı event synchr
 
 ---
 
-## Teknik odak
+## Technical focus
 
-| Katman | Kullandığım teknolojiler ve konular |
+| Layer | Technologies and topics |
 | --- | --- |
 | **Robotics** | ROS 2 Jazzy, MoveIt 2, Gazebo Harmonic, `ros2_control`, TF, kinematics, calibration |
 | **Embedded** | C/C++, ESP32, STM32, FreeRTOS, PlatformIO, watchdog, state machines |
 | **Perception & Edge AI** | OpenCV, YOLO, camera calibration, TensorRT, Python |
 | **Communication** | UART, I2C, SPI, bounded transactions, device–host protocols |
 | **Electronics & Design** | KiCad, PCB design, motor/actuator interfaces, Fusion 360, SolidWorks |
-| **Cloud & Web** | Firebase RTDB, JavaScript, HTML/CSS, event logging ve dashboard integration |
-| **Development** | Ubuntu 24.04, Git/GitHub, Bash, CI, test ve teknik dokümantasyon |
+| **Cloud & Web** | Firebase RTDB, JavaScript, HTML/CSS, event logging and dashboard integration |
+| **Development** | Ubuntu 24.04, Git/GitHub, Bash, CI, testing and technical documentation |
 
 ---
 
-## Nasıl çalışıyorum?
+## How I work
 
-- Sistemi mekanik, güç, low-level control, sensing, communication, high-level control, perception ve safety katmanlarına ayırırım.
-- Simulation sonucu, configuration değeri ve fiziksel ölçümü birbirinden ayırırım.
-- Başarısız denemeleri saklar; kararların nedenlerini, trade-off'ları ve kalan riskleri belgelerim.
-- Donanıma giden komutlarda timeout, watchdog, limit ve fail-safe davranışlarını tasarımın parçası olarak ele alırım.
-- Çalışan prototipi production-ready veya safety-certified bir sistem gibi sunmam.
+- I decompose systems into mechanical, power, low-level control, sensing, communication, high-level control, perception and safety layers.
+- I distinguish simulation results, configuration values and physical measurements from one another.
+- I retain failed experiments and document the reasoning, trade-offs and remaining risks behind engineering decisions.
+- I treat timeouts, watchdogs, limits and fail-safe behavior as part of the design whenever commands reach physical hardware.
+- I do not present a working prototype as a production-ready or safety-certified system.
 
 ---
 
-## İletişim
+## Contact
 
 - **LinkedIn:** [linkedin.com/in/eemreinceer](https://linkedin.com/in/eemreinceer)
 - **Email:** [emreinceer.dev@gmail.com](mailto:emreinceer.dev@gmail.com)
 - **GitHub:** [github.com/eemreinceer](https://github.com/eemreinceer)
 
-> Gömülü sistemler, robotik ve Edge AI alanlarında staj, aday mühendislik ve part-time fırsatlara açığım. İzmir bölgesindeki Ar-Ge ekipleriyle iletişime geçmekten memnuniyet duyarım.
+> I am open to internship, part-time and early-career opportunities in embedded systems, robotics and Edge AI. I would be glad to connect with R&D teams in the Izmir area.
